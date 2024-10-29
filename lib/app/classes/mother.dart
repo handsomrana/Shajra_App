@@ -5,10 +5,9 @@ class MotherPerson {
   Relation relationToDeceasedPerson;
   LifeStatus lifeStatus;
   String? name;
-  String? gender;
+  Gender gender;
   String? fatherName;
   String? motherName;
-  String? noOfWifes;
   int? brothers;
   int? sisters;
   int? sons;
@@ -19,10 +18,9 @@ class MotherPerson {
     this.relationToDeceasedPerson = Relation.mother,
     this.lifeStatus = LifeStatus.alive,
     this.name,
-    this.gender,
+    this.gender = Gender.female,
     this.fatherName,
     this.motherName,
-    this.noOfWifes,
     this.brothers,
     this.sisters,
     this.sons,

@@ -23,6 +23,18 @@ enum Relation {
   daughterOfSon,
   sonOfDaughter,
   daughterOfDaughter,
+  wifeOfChacha,
+  sonOfchacha,
+  daughterOfchacha,
+  husbandOfPhopi,
+  sonOfPhopi,
+  daughterOfPhopi,
+  wifeOfMamu,
+  sonOfMamu,
+  daughterOfMamu,
+  husbandOfKhala,
+  sonOfKhala,
+  daughterOfKhala,
 }
 
 enum LifeStatus {

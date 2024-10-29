@@ -1,28 +1,30 @@
 import 'package:shajra_app/app/classes/person.dart';
 
-class SisterPerson {
+class ChachaPerson {
   String personalID;
   Relation relationToDeceasedPerson;
   LifeStatus lifeStatus;
   MaritalStatus maritalStatus;
-  String fatherID;
-  String motherID;
+  String? fatherID;
+  String? motherID;
   Gender gender;
-  String? husbandID;
+  String? wifeID;
   String? name;
+  String? noOfWifes;
   int? sons;
   int? daughters;
 
-  SisterPerson({
+  ChachaPerson({
     required this.personalID,
-    this.relationToDeceasedPerson = Relation.sister,
+    this.relationToDeceasedPerson = Relation.brotherOfFather,
     this.lifeStatus = LifeStatus.alive,
     this.maritalStatus = MaritalStatus.unmarried,
-    this.gender = Gender.female,
-    required this.fatherID,
-    required this.motherID,
-    this.husbandID,
+    this.gender = Gender.male,
+    this.fatherID,
+    this.motherID,
+    this.wifeID,
     this.name,
+    this.noOfWifes,
     this.sons,
     this.daughters,
   });

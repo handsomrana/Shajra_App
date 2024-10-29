@@ -1,6 +1,6 @@
 import 'package:shajra_app/app/classes/person.dart';
 
-class SisterPerson {
+class BhatijiPerson {
   String personalID;
   Relation relationToDeceasedPerson;
   LifeStatus lifeStatus;
@@ -13,9 +13,9 @@ class SisterPerson {
   int? sons;
   int? daughters;
 
-  SisterPerson({
+  BhatijiPerson({
     required this.personalID,
-    this.relationToDeceasedPerson = Relation.sister,
+    this.relationToDeceasedPerson = Relation.daughterOfBrother,
     this.lifeStatus = LifeStatus.alive,
     this.maritalStatus = MaritalStatus.unmarried,
     this.gender = Gender.female,
